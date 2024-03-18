@@ -8,9 +8,9 @@ public class MathUtils
         }
 
         int sum = 0;
-        foreach (int num in numbers)
+        foreach (int number in numbers)
         {
-            sum += num;
+            sum += number;
         }
         return (double)sum / numbers.Length;
     }
@@ -22,7 +22,7 @@ public class MathUtils
             {
                 throw new ArgumentException("Array cannot be null or empty");
             }
-    
+
             int max = numbers[0];
             foreach (int num in numbers)
             {
