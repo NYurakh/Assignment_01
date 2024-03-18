@@ -5,4 +5,12 @@ Console.WriteLine("Hello, " + userName);
 
 Console.WriteLine("How old are you?");
 int age = int.Parse(Console.ReadLine());
-Console.WriteLine("Your age is: " + age);
+
+if (age < 18)
+{
+Console.WriteLine("You are too young to use this program");
+} else {
+    Console.WriteLine("Welcome!");
+}
+
+
